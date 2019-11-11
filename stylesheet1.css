@@ -1,0 +1,237 @@
+body {
+    height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#taskbar {
+    width: 100%;
+    background-color: #00BFB3;
+    height: 120px;
+    line-height: 120px;
+    vertical-align: middle;
+}
+
+#logo {
+    width: 100px;
+    min-width: 100px;
+    overflow: hidden;
+}
+    
+nav {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: #00BFB3;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 100px;
+    line-height: 120px;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0 100px;
+    line-height: 120px;
+}
+
+nav li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+.panel li {
+    display: block;
+    padding: 10px; 
+}
+
+.panel li a {
+    color: white;
+}
+
+.panel li a:hover {
+    color: #00BFB3;
+}
+
+#homeimage {
+    width: 100%;
+    margin: auto;
+    background-image: url(image1.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hobbiesimage {
+    width: 100%;
+    margin: auto;
+    background-image: url(hobbies.jpg);
+    height: 500px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#courseworkimage {
+    width: 100%;
+    margin: auto;
+    background-image: url(coursework.jpg);
+    height: 500px;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#greetingsimage {
+    width: 100%;
+    margin: auto;
+    background-image: url(greetings.jpg);
+    height: 500px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#animationimage {
+    width: 100%;
+    margin: auto;
+    background-image: url(animation.jpg);
+    height: 500px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    width: 100%;
+    height: 700px;
+    background-color: #046266;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 300px;
+    background-color: #192D35;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contents {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#section1 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    background-image: url(football.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    background-image: url(music.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    background-image: url(photography.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlayleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #046266;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1s ease;
+}
+
+.overlayright {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #046266;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1s ease;
+}
+
+#section1:hover .overlayleft {
+    width: 100%;
+}
+
+#section2:hover .overlayright {
+    width: 100%;
+    left: 0;
+}
+
+#section3:hover .overlayleft {
+    width: 100%;
+}
+
+.panel {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    background-color: #046266;
+}
+
+.video {
+    width: 100%;
+    max-height: 700px;
+}

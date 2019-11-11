@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #29abe2;
+      }
+
+      .cls-2 {
+        fill: #22b573;
+      }
+
+      .cls-3 {
+        fill: #754c24;
+      }
+
+      .cls-4 {
+        fill: #fcee21;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <title>mario</title>
+  <g id="background">
+    <g>
+      <rect class="cls-1" x="0.5" y="0.5" width="1365" height="767"/>
+      <path d="M1365,1V767H1V1H1365m1-1H0V768H1366V0Z"/>
+    </g>
+  </g>
+  <g id="grass">
+    <g>
+      <rect class="cls-2" x="0.5" y="618.5" width="1365" height="149"/>
+      <path d="M1365,619V767H1V619H1365m1-1H0V768H1366V618Z"/>
+    </g>
+  </g>
+  <g id="bricks">
+    <g>
+      <rect class="cls-3" x="462.5" y="340.5" width="66" height="66"/>
+      <path d="M528,341v65H463V341h65m1-1H462v67h67V340Z"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="529.5" y="340.5" width="66" height="66"/>
+      <path d="M595,341v65H530V341h65m1-1H529v67h67V340Z"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="596.5" y="340.5" width="66" height="66"/>
+      <path d="M662,341v65H597V341h65m1-1H596v67h67V340Z"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="730.5" y="340.5" width="66" height="66"/>
+      <path d="M796,341v65H731V341h65m1-1H730v67h67V340Z"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="797.5" y="340.5" width="66" height="66"/>
+      <path d="M863,341v65H798V341h65m1-1H797v67h67V340Z"/>
+    </g>
+    <g>
+      <rect class="cls-3" x="864.5" y="340.5" width="66" height="66"/>
+      <path d="M930,341v65H865V341h65m1-1H864v67h67V340Z"/>
+    </g>
+  </g>
+  <g id="yellowBbox">
+    <rect class="cls-4" x="663.5" y="340.5" width="66" height="66"/>
+  </g>
+  <g id="question">
+    <path d="M691.3,383.6l-.2-2.2c-.5-4.5,1-9.5,5.2-14.5s5.9-7.7,5.9-11.5-2.7-7.2-8-7.3a15.1,15.1,0,0,0-8.5,2.7l-2-5.3c2.8-2.1,7.6-3.4,12-3.4,9.7,0,14.1,6,14.1,12.3s-3.2,9.9-7.3,14.7-5,8-4.7,12.3v2.2Zm-1.9,11.8a4.9,4.9,0,0,1,5.1-5.3c2.9,0,4.9,2.1,4.9,5.3a4.9,4.9,0,0,1-5,5.2A5,5,0,0,1,689.4,395.4Z"/>
+  </g>
+  <g id="circle">
+    <circle class="cls-5" cx="179.5" cy="584.5" r="33.5"/>
+  </g>
+  <g id="star">
+    <image width="868" height="868" transform="translate(663 274) scale(0.08)" xlink:href="star.png"/>
+  </g>
+</svg>
